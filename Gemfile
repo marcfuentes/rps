@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.12'
 
 group :development, :test do
-  gem "pg"
+  gem "sqlite3"
 end
 
 group :production do
